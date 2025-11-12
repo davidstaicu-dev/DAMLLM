@@ -207,14 +207,14 @@ ul {
 
 .saber {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin: 10px 675px;
+    margin-left: 42%;
+    margin-right: 42%;
     padding: 8px 16px;
     background-color: #292724;
     color: #f1a20d;
     text-decoration: none;
     font-weight: bold;
+    text-align: center;
 }
 
 .saber:hover {
