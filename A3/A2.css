@@ -1,0 +1,287 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffea00;
+    text-align: justify;
+}
+
+
+.background {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    background-color: #444;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.logo {
+    max-height: 60px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav a {
+    color: orange;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    background-color: #fff;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 20px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+}
+
+.article h1 {
+    color: #004080;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.article h2 {
+    color: #222;
+    margin-top: 20px;
+}
+
+.date {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid #ccc;
+}
+
+.tweet {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.tweet img {
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.wiki-links {
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.wiki-links a {
+    color: #003366;
+    text-decoration: none;
+}
+
+.wiki-links a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    width: 100%;               
+    background-color: #b424d1; 
+    display: flex;             
+    justify-content: center;   
+    align-items: center;      
+    gap: 20px;                
+    padding: 20px 0;           
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.footer img {
+    max-height: 120px;
+    display: block;
+}
+
+.date-bar {
+    margin: 20px 0;
+}
+
+.date-bar hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 5px 0;
+}
+
+.date-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.social-icons a {
+    margin-left: 8px;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    transition: opacity 0.2s;
+}
+
+.social-icons img:hover {
+    opacity: 0.7;
+}
+
+.character-list {
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+.character-list li {
+    margin: 6px 0;
+}
+
+.character-list a {
+    color: #e6b928;
+    text-decoration: none;
+}
+
+.character-list a:hover {
+    text-decoration: underline;
+}
+
+.character {
+    margin-bottom: 40px;
+}
+
+.character h2 {
+    color: #222;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.character img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px 675px;
+}
+
+.saber {
+    display: flex;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #292724;
+    color: #f1a20d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.saber:hover {
+    background-color: #e68900;
+    color: #fff;
+}
+
+.arcs-container {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.arcs-images {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex: 3;
+  max-width: 700px;
+}
+
+.arcs-images img {
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+.arcs-list {
+  flex: 1;
+}
+
+.saga {
+  margin-bottom: 20px;
+}
+
+.saga h2 {
+  display: flex;
+  align-items: center;
+  color: #00a2ff;
+  font-size: 1.2em;
+  margin-bottom: 6px;
+}
+
+.saga h2 img {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.saga ol {
+  list-style: decimal;
+  padding-left: 30px;
+  margin: 0;
+}
+
+.saga ol li {
+  margin: 4px 0;
+}
+
+
+.arcs-page h1 {
+  color: #004080;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.content h1 {
+    color: #004080;
+}
