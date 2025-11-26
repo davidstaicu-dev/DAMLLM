@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Terror - Reserva</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <meta name="description" content="Hotel Terror - Reserva tu habitación ahora">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <div class="logo">
+                <img src="img/estrelles.jpg" alt="Hotel Terror logo" class="logo-img">
+            </div>
+            <nav class="main-nav" aria-label="Menú principal">
+                <a href="index.html">Inicio</a>
+                <a href="precios.html">Precios</a>
+                <a href="reserva.html" class="active">Reserva</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-container">
+        <div class="page-banner">
+            <h1>Reserve su habitación en Hotel Terror</h1>
+        </div>
+
+        <div class="container content-wrapper">
+            <div class="form-section">
+                <form class="formulario-reserva" aria-label="Formulario de reserva">
+                    
+                    <fieldset class="grupo-formulario">
+                        <legend>Datos Personales</legend>
+                        
+                        <div class="grupo-campo">
+                            <label for="tratamiento">Tratamiento:</label>
+                            <select id="tratamiento" name="tratamiento" required>
+                                <option value="">-- Selecciona una opción --</option>
+                                <option value="Sr">Sr.</option>
+                                <option value="Sra">Sra.</option>
+                                <option value="Srta">Srta.</option>
+                            </select>
+                        </div>
+
+                        <div class="grupo-campo">
+                            <label for="nombre">Nombre:</label>
+                            <input id="nombre" name="nombre" type="text" placeholder="Juan" required>
+                        </div>
+
+                        <div class="grupo-campo">
+                            <label for="apellidos">Apellidos:</label>
+                            <input id="apellidos" name="apellidos" type="text" placeholder="Pérez García" required>
+                        </div>
+
+                        <div class="grupo-campo">
+                            <label for="telefono">Teléfono:</label>
+                            <input id="telefono" name="telefono" type="tel" placeholder="+34 912 345 678" required>
+                        </div>
+
+                        <div class="grupo-campo">
+                            <label for="email">Correo electrónico:</label>
+                            <input id="email" name="email" type="email" placeholder="correo@ejemplo.com" required>
+                        </div>
+
+                        <div class="grupo-campo">
+                            <label for="email-confirmar">Confirmar correo electrónico:</label>
+                            <input id="email-confirmar" name="email-confirmar" type="email" placeholder="correo@ejemplo.com" required>
+                        </div>
+
+                        <div class="grupo-campo">
+                            <label for="contrasena">Contraseña:</label>
+                            <input id="contrasena" name="contrasena" type="password" placeholder="Mínimo 6 caracteres" required>
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="grupo-formulario">
+                        <legend>Datos de la Reserva</legend>
+                        
+                        <div class="grupo-campo">
+                            <label for="habitacion">Tipo de habitación:</label>
+                            <select id="habitacion" name="habitacion" required>
+                                <option value="">-- Selecciona una opción --</option>
+                                <option value="individual">Habitación individual</option>
+                                <option value="doble">Habitación doble</option>
+                                <option value="doble-superior">Habitación doble superior</option>
+                                <option value="triple">Habitación triple</option>
+                            </select>
+                        </div>
+
+                        <div class="grupo-campo">
+                            <label for="num-personas">Número de personas:</label>
+                            <input id="num-personas" name="num-personas" type="number" min="1" max="3" placeholder="1" required>
+                        </div>
+
+                        <div class="fila-campos">
+                            <div class="grupo-campo">
+                                <label for="fecha-entrada">Fecha de entrada:</label>
+                                <input id="fecha-entrada" name="fecha-entrada" type="date" required>
+                            </div>
+                            <div class="grupo-campo">
+                                <label for="fecha-salida">Fecha de salida:</label>
+                                <input id="fecha-salida" name="fecha-salida" type="date" required>
+                            </div>
+                        </div>
+
+                        <div class="grupo-campo">
+                            <label for="peticiones">Peticiones especiales:</label>
+                            <textarea id="peticiones" name="peticiones" rows="3" placeholder="p. ej. cama supletoria..." class="campo-notas"></textarea>
+                            <small class="nota-campo">Nota: Estas peticiones no se pueden garantizar, pero haremos todo lo posible para satisfacerlas.</small>
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="grupo-formulario">
+                        <legend>Datos Adicionales</legend>
+                        
+                        <div class="grupo-campo checkbox">
+                            <input id="parking" name="parking" type="checkbox" value="si">
+                            <label for="parking">Deseo reservar plaza de parking cubierto (8€/noche)</label>
+                            <small class="nota-campo">Disponemos también de parking exterior gratuito.</small>
+                        </div>
+
+                        <div class="grupo-campo">
+                            <label for="hora-llegada">Hora prevista de llegada:</label>
+                            <input id="hora-llegada" name="hora-llegada" type="time" required>
+                        </div>
+
+                        <div class="grupo-campo checkbox">
+                            <input id="desayuno" name="desayuno" type="checkbox" value="si">
+                            <label for="desayuno">Deseo añadir desayuno (5€/día)</label>
+                        </div>
+                    </fieldset>
+
+                    <div class="acciones-formulario">
+                        <button type="submit" class="boton-primario">Enviar Reserva</button>
+                        <button type="reset" class="boton-secundario">Limpiar Formulario</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>Actividad realizada por <strong>David Staicu Berceanu</strong></p>
+            <div class="footer-credits">
+                <img src="img/creative-commons.png" alt="Creative Commons License" class="cc-badge">
+                <p>Fotografías de la portada <a href="https://unsplash.com" target="_blank" rel="noopener">Unsplash</a></p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
