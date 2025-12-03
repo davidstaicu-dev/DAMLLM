@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pàgina principal amb galeria d'imatges interactiva">
+    <meta name="author" content="David Staicu">
+    <meta name="keywords" content="galeria, imatges, javascript, html5, css3">
+    <title>Pàgina Principal - Galeria d'Imatges</title>
+    <link rel="stylesheet" href="css/estils.css">
+    <script src="components/galeria.js"></script>
+</head>
+<body>
+    <script src="components/rellotge.js"></script>
+
+    <div id="rellotge">Temps: 00:00:00</div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Pàgina Principal</a></li>
+            <li><a href="pagina2.html">Efectes Hover</a></li>
+            <li><a href="pagina3.html">Formulari</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Galeria d'Imatges Interactiva</h1>
+        <p>Clica a les miniatures per veure la imatge en gran!</p>
+
+        <h2>Miniatures</h2>
+        <div class="galeria-miniatures">
+            <img src="img/imatge.jpg" alt="Imatge 1" onclick="canviarImatge('img/imatge.jpg')">
+            <img src="img/imatge2.jpeg" alt="Imatge 2" onclick="canviarImatge('img/imatge2.jpeg')">
+            <img src="img/imatge3.jpg" alt="Imatge 3" onclick="canviarImatge('img/imatge3.jpg')">
+            <img src="img/imatge4.webp" alt="Imatge 4" onclick="canviarImatge('img/imatge4.webp')">
+            <img src="img/imatge5.webp" alt="Imatge 5" onclick="canviarImatge('img/imatge5.webp')">
+            <img src="img/imatge6.webp" alt="Imatge 6" onclick="canviarImatge('img/imatge6.webp')">
+        </div>
+
+        <h2>Imatge Gran</h2>
+        <img id="imatge-gran" src="img/Placeholder.png" alt="Imatge gran">
+    </div>
+</body>
+</html>
