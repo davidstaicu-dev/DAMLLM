@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formulari de canvi de contrasenya amb validació">
+    <meta name="author" content="David Staicu">
+    <meta name="keywords" content="formulari, password, validació, javascript">
+    <title>Formulari de Contrasenya</title>
+    <link rel="stylesheet" href="css/estils.css">
+    <script src="components/rellotge.js"></script>
+    <script src="components/formulari.js"></script>
+</head>
+<body>
+
+    <div id="rellotge">Temps: 00:00:00</div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Pàgina Principal</a></li>
+            <li><a href="pagina2.html">Efectes Hover</a></li>
+            <li><a href="pagina3.html">Formulari</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Canvi de Contrasenya</h1>
+        <p>Introdueix la teva nova contrasenya dues vegades per confirmar-la.</p>
+
+        <form class="formulari-password" onsubmit="return validarPassword()">
+            <label for="password1">Nova Contrasenya:</label>
+            <input type="password" id="password1" name="password1" required 
+                   placeholder="Mínim 8 caràcters">
+
+            <label for="password2">Confirma la Contrasenya:</label>
+            <input type="password" id="password2" name="password2" required 
+                   placeholder="Torna a introduir la contrasenya">
+
+            <button type="submit">Canviar Contrasenya</button>
+        </form>
+
+        <div class="requisits-password">
+            <h3>Requisits de la contrasenya:</h3>
+            <ul>
+                <li>Mínim 8 caràcters de longitud</li>
+                <li>Les dues contrasenyes han de coincidir</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

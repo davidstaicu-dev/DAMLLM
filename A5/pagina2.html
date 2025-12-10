@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pàgina amb efectes hover interactius">
+    <meta name="author" content="David Staicu">
+    <meta name="keywords" content="hover, efectes, javascript, interactiu">
+    <title>Efectes Hover - Interacció</title>
+    <link rel="stylesheet" href="css/estils.css">
+    <script src="components/hover.js"></script>
+
+    <script src="components/rellotge.js"></script>
+</head>
+<body>
+    <div id="rellotge">Temps: 00:00:00</div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Pàgina Principal</a></li>
+            <li><a href="pagina2.html">Efectes Hover</a></li>
+            <li><a href="pagina3.html">Formulari</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Efectes Hover amb Javascript</h1>
+        <p>Passa el ratolí per sobre de les seccions següents per veure'n els efectes!</p>
+
+        <div class="seccio-hover" id="seccio1" 
+             onmouseover="canviarEstil(this, true)" 
+             onmouseout="canviarEstil(this, false)">
+            <h2>Secció 1: Informació Important</h2>
+            <p>Aquest és el contingut principal que sempre es veu.</p>
+            <div class="text-ocult" id="text1">
+                <p><strong>Text addicional:</strong> Aquest text només apareix quan passes el ratolí per sobre de la secció. Conté informació extra que pot ser útil per als visitants.</p>
+            </div>
+        </div>
+
+        <div class="seccio-hover" id="seccio2" 
+             onmouseover="canviarEstil(this, true)" 
+             onmouseout="canviarEstil(this, false)">
+            <h2>Secció 2: Més Contingut</h2>
+            <p>Una altra secció amb efectes interactius.</p>
+            <div class="text-ocult" id="text2">
+                <p><strong>Detalls addicionals:</strong> Aquesta funcionalitat és molt útil per mostrar informació complementària sense saturar la pàgina. L'usuari pot decidir si vol veure més informació.</p>
+            </div>
+        </div>
+
+        <div class="seccio-hover" id="seccio3" 
+             onmouseover="canviarEstil(this, true)" 
+             onmouseout="canviarEstil(this, false)">
+            <h2>Secció 3: Encara Més!</h2>
+            <p>Tercera secció amb el mateix efecte.</p>
+            <div class="text-ocult" id="text3">
+                <p><strong>Informació extra:</strong> Els esdeveniments onmouseover i onmouseout permeten crear experiències interactives sense necessitat de fer clic. És una manera elegant de millorar la usabilitat.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
