@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<receptes>
+
+    <recepta id="1">
+        <nom>Pastís de xocolata</nom>
+        
+        <ingredients>
+            <ingredient quantitat="6" unitat="unitats">rovells d'ou</ingredient>
+            <ingredient quantitat="6" unitat="unitats">clares</ingredient>
+            <ingredient quantitat="150" unitat="g">sucre</ingredient>
+            <ingredient quantitat="200" unitat="g">xocolata negra de cobertura</ingredient>
+            <ingredient quantitat="50" unitat="g">mantega</ingredient>
+            <ingredient>farina</ingredient>
+            <ingredient>nata muntada</ingredient>
+            <ingredient>cacau en pols</ingredient>
+        </ingredients>
+
+        <preparacio>
+            Per començar, barregeu els rovells d'ou amb el sucre en un bol.
+            Mentrestant, foneu la cobertura de xocolata al bany maria.
+            Afegiu-hi la mantega i remeneu-ho.
+            Munteu les clares a punt de neu.
+            Barregeu la xocolata amb els rovells i les clares muntades.
+            Poseu-ho en un motlle i fornegeu a 180 graus durant 30 minuts.
+            Deixeu refredar i decoreu amb nata muntada i cacau en pols.
+        </preparacio>
+
+        <notes>
+            Recepta del programa de TV3 Cuines, del restaurant Les Petxines.
+        </notes>
+
+        <autor>
+            <nom>Barbara Casanovas</nom>
+            <colaborador>Adrià Ruscadella</colaborador>
+        </autor>
+
+        <categories>
+            <categoria>Postre</categoria>
+            <categoria>Dolços</categoria>
+            <categoria>Aniversari</categoria>
+            <categoria>Fàcil</categoria>
+            <categoria>Econòmic</categoria>
+        </categories>
+    </recepta>
+
+
+    <recepta id="2">
+        <nom>Volcà de xocolata</nom>
+
+        <ingredients>
+            <ingredient quantitat="4" unitat="unitats">ous</ingredient>
+            <ingredient quantitat="4" unitat="unitats">rovells</ingredient>
+            <ingredient quantitat="80" unitat="g">sucre</ingredient>
+            <ingredient quantitat="220" unitat="g">mantega</ingredient>
+            <ingredient quantitat="220" unitat="g">xocolata</ingredient>
+            <ingredient quantitat="60" unitat="g">farina</ingredient>
+        </ingredients>
+
+        <preparacio>
+            1. Foneu al bany maria la xocolata i la mantega.
+            2. Munteu les clares amb el sucre.
+            3. Barregeu la meitat de les clares amb la xocolata.
+            4. Ompliu motlles individuals i poseu-hi un dau de xocolata al centre.
+            5. Coeu a 220 graus durant 10 minuts.
+            6. Serviu calent amb sucre llustre o gelat.
+        </preparacio>
+
+        <autor>
+            <nom>Anna</nom>
+        </autor>
+
+        <categories>
+            <categoria>Postre</categoria>
+            <categoria>Dolços</categoria>
+            <categoria>Festa</categoria>
+            <categoria>Fàcil</categoria>
+            <categoria>Econòmic</categoria>
+            <categoria>Catalana</categoria>
+        </categories>
+
+        <informacio>
+            <temps unitat="minuts">30</temps>
+            <cost unitat="euros">15</cost>
+            <calories>220</calories>
+        </informacio>
+    </recepta>
+
+
+    <recepta id="3">
+        <nom>Pastís de formatge</nom>
+
+        <ingredients>
+            <ingredient quantitat="2" unitat="terrines">formatge Philadelphia</ingredient>
+            <ingredient quantitat="3" unitat="unitats">ous</ingredient>
+            <ingredient quantitat="3" unitat="unitats">iogurts naturals</ingredient>
+            <ingredient quantitat="3" unitat="grans">cullerades de farina</ingredient>
+            <ingredient quantitat="10-12" unitat="cullerades petites">sucre</ingredient>
+            <ingredient>galetes Maria o Chiquilín</ingredient>
+        </ingredients>
+
+        <preparacio>
+            Escalfeu el forn a 200 graus.
+            Barregeu el formatge, els ous i els iogurts.
+            Afegiu-hi la farina i el sucre.
+            Tritureu les galetes i poseu-les a la base del motlle.
+            Aboqueu la barreja i fornegeu entre 20 i 30 minuts.
+            Deixeu refredar abans de desemmotllar.
+        </preparacio>
+
+        <notes>
+            Una delícia pels més formatgers.
+        </notes>
+
+        <autor>
+            <nom>Eulàlia</nom>
+        </autor>
+
+        <categories>
+            <categoria>Postre</categoria>
+        </categories>
+    </recepta>
+
+</receptes>

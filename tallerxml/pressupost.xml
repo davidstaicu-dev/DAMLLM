@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pressuposts client="peticio correu electrònic">
+    
+    <pressupost id="1" nom="Bàsic">
+        <component>
+            <nom>Placa base</nom>
+            <marca>ASUS</marca>
+            <model>Prime B550M-A</model>
+            <preu unitat="EUR">109.90</preu>
+        </component>
+
+        <component>
+            <nom>Processador</nom>
+            <marca>AMD</marca>
+            <model>Ryzen 5 5600</model>
+            <preu unitat="EUR">169.00</preu>
+        </component>
+
+        <component quantitat="2">
+            <nom>Memòria RAM</nom>
+            <marca>Corsair</marca>
+            <model>Vengeance LPX 8GB</model>
+            <preu unitat="EUR">49.90</preu>
+        </component>
+
+        <component>
+            <nom>Disc dur</nom>
+            <marca>Seagate</marca>
+            <model>Barracuda 1TB</model>
+            <preu unitat="EUR">39.90</preu>
+        </component>
+
+        <component>
+            <nom>Targeta gràfica</nom>
+            <marca>MSI</marca>
+            <model>GTX 1660 SUPER</model>
+            <preu unitat="EUR">219.00</preu>
+        </component>
+
+        <component>
+            <nom>Targeta de so</nom>
+            <marca>Creative</marca>
+            <model>Sound Blaster Audigy FX</model>
+            <preu unitat="EUR">39.90</preu>
+        </component>
+
+        <total unitat="EUR">627.60</total>
+    </pressupost>
+
+    <pressupost id="2" nom="Avançat">
+        <component>
+            <nom>Placa base</nom>
+            <marca>ASUS</marca>
+            <model>ROG Strix B760</model>
+            <preu unitat="EUR">269.00</preu>
+        </component>
+
+        <component>
+            <nom>Processador</nom>
+            <marca>Intel</marca>
+            <model>Core i7-12700F</model>
+            <preu unitat="EUR">289.00</preu>
+        </component>
+
+        <component quantitat="2">
+            <nom>Memòria RAM</nom>
+            <marca>Kingston</marca>
+            <model>Fury Beast 16GB</model>
+            <preu unitat="EUR">84.90</preu>
+        </component>
+
+        <component>
+            <nom>Disc dur</nom>
+            <marca>Samsung</marca>
+            <model>970 EVO Plus 1TB SSD</model>
+            <preu unitat="EUR">109.90</preu>
+        </component>
+
+        <component>
+            <nom>Targeta gràfica</nom>
+            <marca>NVIDIA</marca>
+            <model>RTX 3060</model>
+            <preu unitat="EUR">349.00</preu>
+        </component>
+
+        <component>
+            <nom>Targeta de so</nom>
+            <marca>Asus</marca>
+            <model>Essence STX II</model>
+            <preu unitat="EUR">199.00</preu>
+        </component>
+
+        <total unitat="EUR">1320.70</total>
+    </pressupost>
+
+</pressuposts>

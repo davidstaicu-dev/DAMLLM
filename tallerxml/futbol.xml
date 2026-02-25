@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<futbol competicio="Primera Divisió" temporada="2010-2011">
+
+    <jornada numero="1">
+        <partit estat="finalizado">
+            <equipLocal>R. Sociedad</equipLocal>
+            <golsLocal>2</golsLocal>
+            <equipVisitant>Getafe</equipVisitant>
+            <golsVisitant>0</golsVisitant>
+        </partit>
+
+        <partit estat="finalizado">
+            <equipLocal>Valencia</equipLocal>
+            <golsLocal>1</golsLocal>
+            <equipVisitant>Málaga</equipVisitant>
+            <golsVisitant>0</golsVisitant>
+        </partit>
+    </jornada>
+
+    <jornada numero="2">
+        <partit estat="finalizado">
+            <equipLocal>Getafe</equipLocal>
+            <golsLocal>2</golsLocal>
+            <equipVisitant>Almería</equipVisitant>
+            <golsVisitant>2</golsVisitant>
+        </partit>
+
+        <partit estat="finalizado">
+            <equipLocal>Villarreal</equipLocal>
+            <golsLocal>2</golsLocal>
+            <equipVisitant>Valladolid</equipVisitant>
+            <golsVisitant>1</golsVisitant>
+        </partit>
+    </jornada>
+
+    <jornada numero="3">
+        <partit estat="finalizado">
+            <equipLocal>Rayo</equipLocal>
+            <golsLocal>1</golsLocal>
+            <equipVisitant>Levante</equipVisitant>
+            <golsVisitant>2</golsVisitant>
+        </partit>
+
+        <partit estat="finalizado">
+            <equipLocal>Celta</equipLocal>
+            <golsLocal>1</golsLocal>
+            <equipVisitant>Granada</equipVisitant>
+            <golsVisitant>1</golsVisitant>
+        </partit>
+    </jornada>
+
+    <jornada numero="4">
+        <partit estat="finalizado">
+            <equipLocal>Rayo</equipLocal>
+            <golsLocal>2</golsLocal>
+            <equipVisitant>Levante</equipVisitant>
+            <golsVisitant>1</golsVisitant>
+        </partit>
+
+        <partit estat="finalizado">
+            <equipLocal>Valencia</equipLocal>
+            <golsLocal>2</golsLocal>
+            <equipVisitant>FC Barcelona</equipVisitant>
+            <golsVisitant>3</golsVisitant>
+        </partit>
+    </jornada>
+
+</futbol>
