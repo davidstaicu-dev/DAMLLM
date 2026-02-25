@@ -5,4 +5,7 @@
 ### [A3](A3/A2.html)
 ### [A4](A4/index.html)
 ### [A5](A5/index.html)
-
+### [CD Oferta](tallerxml/cdoferta.xml)
+### [Futbol](tallerxml/futbol.xml)
+### [Pressupost](tallerxml/pressupost.xml)
+### [Receptes](tallerxml/receptes.xml)
