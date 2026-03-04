@@ -1,0 +1,42 @@
+{
+  "pressupost_telefonia": {
+    "empresa": "PC Taller",
+    "client": "Pressupost sol·licitat per correu",
+    "data": "2026-03-04",
+    "opcions": [
+      {
+        "model": "iPhone 15",
+        "marca": "Apple",
+        "caracteristiques": {
+          "pantalla": "6.1 polzades Super Retina XDR",
+          "processador": "A16 Bionic",
+          "emmagatzematge": "128GB",
+          "camera_principal": "48MP"
+        },
+        "preu": 750.00
+      },
+      {
+        "model": "Galaxy S24",
+        "marca": "Samsung",
+        "caracteristiques": {
+          "pantalla": "6.2 polzades Dynamic AMOLED 2X",
+          "processador": "Exynos 2400",
+          "emmagatzematge": "256GB",
+          "camera_principal": "50MP"
+        },
+        "preu": 820.00
+      },
+      {
+        "model": "Pixel 8",
+        "marca": "Google",
+        "caracteristiques": {
+          "pantalla": "6.2 polzades Actua Display",
+          "processador": "Google Tensor G3",
+          "emmagatzematge": "128GB",
+          "camera_principal": "50MP"
+        },
+        "preu": 699.00
+      }
+    ]
+  }
+}
